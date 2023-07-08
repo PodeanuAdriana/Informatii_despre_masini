@@ -1,0 +1,92 @@
+.meniu_sus{
+    
+    text-align: center;
+}
+.link{
+     text-decoration-color: aqua;
+     text-shadow: 15mm;
+     
+}
+body{
+   
+    background-image: url("imagini/marmura.jpg");
+    background-repeat: repeat;
+    background-size:100%;
+   margin:0;
+   padding: 0;
+}
+.link {
+  align-items: center;
+  appearance: none;
+  background-color: #cad7e0;
+  background-image: linear-gradient(1deg, #ababb0, #d2d7da 99%);
+  background-size: calc(100% + 20px) calc(100% + 20px);
+  border-radius: 100px;
+  border-width: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: CircularStd,sans-serif;
+  font-size: 1rem;
+  height: auto;
+  justify-content: center;
+  line-height: 1.5;
+  padding: 6px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color .2s,background-position .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.link:active,
+.link:focus {
+  outline: none;
+}
+
+.link:hover {
+  background-position: -20px -20px;
+}
+
+.link:focus:not(:active) {
+  box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+}
+.text{
+    text-align: center;
+    color: #9faeb6;
+}
+.incadrare_1{
+    text-align: center;
+    background-color: whitesmoke;
+    margin-top: 15%;
+    height: fit-content;
+    width: fit-content;
+    margin-left: 40%;
+    opacity: 0.9;
+
+}
+
+.tabel{
+  background-color:whitesmoke;
+  margin-top:5%;
+  margin-left:45%;
+  opacity:0.9;
+  
+}
+.labeluri{
+  text-align: center;
+  font-size:20px;
+    background-color: whitesmoke;
+    margin-top: 15%;
+    height: fit-content;
+    width: fit-content;
+    margin-left: 40%;
+    opacity: 0.9;
+
+}
